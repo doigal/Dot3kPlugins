@@ -7,6 +7,11 @@ from time import sleep
 from dot3k.menu import MenuOption
 import dot3k.backlight
 
+# Requires the dot3k.cfg file to have the following
+# [Wunderground]
+# wuapikey = YOURAPIKEY
+# wustations = YOURSTATIONID
+
 #The Wunderground API limit is 500 per day and 10 per minute for free accounts. To be safe limit the updates to every 30 minutes.
 updateinterval = 1800
     
